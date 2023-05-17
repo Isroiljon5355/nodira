@@ -1,0 +1,88 @@
+const dataPopularHotel = [
+  {
+    id: 1,
+    imageGeneral: "",
+    image: [
+      {
+        id: 1,
+        img: "",
+      },
+    ],
+    title: "Oydin Plaza Hotel",
+    address: "Namangan ",
+    descr: "lorem ipsum dolor sit amet",
+    category: "Holel",
+    price: 70,
+    discount: 10,
+    view: "Exsellent",
+    viewNumber: 8,
+    person: 1,
+    beds: 2,
+    bathroom: 1,
+  },
+  {
+    id: 2,
+    imageGeneral: "",
+    image: [
+      {
+        id: 1,
+        img: "",
+      },
+    ],
+    title: "Oydin Plaza Hotel",
+    address: "Namangan ",
+    descr: "lorem ipsum dolor sit amet",
+    category: "Holel",
+    price: 80,
+    discount: 10,
+    view: "Exsellent",
+    viewNumber: 8,
+    person: 1,
+    beds: 2,
+    bathroom: 1,
+  },
+  {
+    id: 3,
+    imageGeneral: "",
+    image: [
+      {
+        id: 1,
+        img: "",
+      },
+    ],
+    title: "Oydin Plaza Hotel",
+    address: "Namangan ",
+    descr: "lorem ipsum dolor sit amet",
+    category: "Holel",
+    price: 60,
+    discount: 10,
+    view: "Exsellent",
+    viewNumber: 8,
+    person: 1,
+    beds: 2,
+    bathroom: 1,
+  },
+  {
+    id: 4,
+    imageGeneral: "",
+    image: [
+      {
+        id: 1,
+        img: "",
+      },
+    ],
+    title: "Oydin Plaza Hotel",
+    address: "Namangan ",
+    descr: "lorem ipsum dolor sit amet",
+    category: "Holel",
+    price: 88,
+    discount: 10,
+    view: "Exsellent",
+    viewNumber: 8,
+    person: 1,
+    beds: 2,
+    bathroom: 1,
+  },
+];
+
+export default dataPopularHotel;
