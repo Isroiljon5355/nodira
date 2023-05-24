@@ -13,7 +13,11 @@ const Header = ({ image, title, titleTwo, p }: Props) => {
   const { classes } = useHeaderStyles();
   return (
     <Box className={classes.head} mx="auto">
-      <BackgroundImage src={image} radius="sm" className={classes.imgBox}>
+      <BackgroundImage
+        src="https://www.cdc.gov/healthyyouth/protective/images/EDkQGdeXkAIiM0q.jpg?_=56749"
+        radius="sm"
+        className={classes.imgBox}
+      >
         <Box
           sx={{
             width: "100%",

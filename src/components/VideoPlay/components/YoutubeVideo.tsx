@@ -6,13 +6,13 @@ const YoutubeVideo = () => {
     // access to player in all event handlers via event.target
     event.target.pauseVideo();
   };
-  const link = "https://www.youtube.com/watch?v=PJt7VJLJWyI";
+  const link = "https://www.youtube.com/watch?v=7xCe2m0kiSg";
   const opts: YouTubeProps["opts"] = {
     height: "600px",
     width: "100%",
     playerVars: {
       link,
-      autoplay: 1,
+      autoplay: 2,
     },
   };
 

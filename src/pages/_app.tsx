@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         defaultLocale={"uz"}
       >
         <Head>
-          <title>NamanganTurist.uz</title>
+          <title>NodiraEducation</title>
           {/* bu yerda meta teglar boladi */}
         </Head>
 

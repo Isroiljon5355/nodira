@@ -1,11 +1,8 @@
 import {
-  ActionIcon,
   Box,
   Burger,
-  Button,
   Group,
   Header,
-  Menu,
   Paper,
   Text,
   Transition,
@@ -18,7 +15,6 @@ import { useState } from "react";
 import navLink from "./components/data";
 import navbarLocaleEn from "./locale";
 import useStyles from "./styles/navStyle";
-import { IconUserCircle, IconUser } from "@tabler/icons-react";
 
 const HEADER_HEIGHT = 75;
 
@@ -79,22 +75,6 @@ const Navbar: React.FC<{
           )}
         </Transition>
       </Box>
-      <Menu position="left-start">
-        <Menu.Target>
-          <ActionIcon mx={20}>
-            <IconUserCircle size={36} />
-          </ActionIcon>
-        </Menu.Target>
-
-        <Menu.Dropdown>
-          <Menu.Item onClick={handleSignIn} icon={<IconUser />}>
-            {navbarLocaleEn.signin}
-          </Menu.Item>
-          <Menu.Item onClick={handleSignUp} icon={<IconUser />}>
-            {navbarLocaleEn.signup}
-          </Menu.Item>
-        </Menu.Dropdown>
-      </Menu>
     </Header>
   );
 };

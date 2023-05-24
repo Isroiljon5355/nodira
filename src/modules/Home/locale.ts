@@ -3,7 +3,7 @@ export const homeLocaleUz = {
 };
 export const homeLocaleEn = {
   title: "Tespen",
-  welcome: "Welcome To Namangan",
+  welcome: "Welcome to our education centres",
   titleTwo: "You are not wrong to choose us",
   textMore:
     "Namangan ,Although it does not have a lot of history, it is a land that attracts people with its beauty",

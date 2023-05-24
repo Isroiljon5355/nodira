@@ -1,5 +1,5 @@
 const navbarLocaleEn = {
-  title: "Namangan_Travel",
+  title: "NodiraEducation",
   btn: "Booking",
   signin: "Sign In",
   signup: "Sign Up",

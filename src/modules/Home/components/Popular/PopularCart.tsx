@@ -11,7 +11,7 @@ const PopularCart = () => {
   return (
     <Box className={classes.head} py={40}>
       <Tabs color="yellow" variant="pills" radius={"lg"} defaultValue="gallery">
-        <Group position="center">
+        {/* <Group position="center">
           <Tabs.List>
             <Tabs.Tab value="gallery" icon={<GrGallery />}>
               {popularCartLocaleEn.all}
@@ -23,7 +23,7 @@ const PopularCart = () => {
               {popularCartLocaleEn.restaurant}
             </Tabs.Tab>
           </Tabs.List>
-        </Group>
+        </Group> */}
         <Grid className={classes.section} m={0}>
           {popularData?.map((item: any) => (
             <Grid.Col

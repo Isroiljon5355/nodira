@@ -20,7 +20,7 @@ const useHeaderStyles = createStyles((theme) => {
     },
     first: {
       color: "white",
-      fontSize: "80px",
+      fontSize: "65px",
       fontWeight: 700,
 
       [theme.fn.smallerThan("xs")]: {
