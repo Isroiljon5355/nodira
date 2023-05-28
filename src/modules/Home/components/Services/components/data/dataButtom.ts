@@ -1,12 +1,12 @@
-import plane from "@assets/hFSfhf15244901249255_l (1).jpg";
-import world from "@assets/mount.jpg";
-import hotel from "@assets/hotel.webp";
-import medic from "@assets/medik.jpg";
+import plane from "@assets/nodira.jpg";
+import world from "@assets/nodira2.jpg";
+import hotel from "@assets/nodira3.jpg";
+import medic from "@assets/nodira4.jpg";
 
 const servisDataBottom = [
   {
     id: 1,
-    title: "Airline Tickets",
+    title: "About sciences",
     image: plane,
     descr_top:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quas nihil, quae voluptatum numquam excepturi minus quibusdam corrupti necessitatibus. Nisi ducimus doloremque reiciendis ab tempore eius praesentium, sed magni quisquam.",
@@ -21,7 +21,7 @@ const servisDataBottom = [
   },
   {
     id: 2,
-    title: "Worldwide Tours",
+    title: "Grades",
     image: world,
     descr_top:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quas nihil, quae voluptatum numquam excepturi minus quibusdam corrupti necessitatibus. Nisi ducimus doloremque reiciendis ab tempore eius praesentium, sed magni quisquam.",
@@ -36,7 +36,7 @@ const servisDataBottom = [
   },
   {
     id: 3,
-    title: "Hotel Reservation",
+    title: "About us",
     image: hotel,
     descr_top:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quas nihil, quae voluptatum numquam excepturi minus quibusdam corrupti necessitatibus. Nisi ducimus doloremque reiciendis ab tempore eius praesentium, sed magni quisquam.",
@@ -51,7 +51,7 @@ const servisDataBottom = [
   },
   {
     id: 4,
-    title: "Medical Tours",
+    title: "Our chances",
     image: medic,
     descr_top:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quas nihil, quae voluptatum numquam excepturi minus quibusdam corrupti necessitatibus. Nisi ducimus doloremque reiciendis ab tempore eius praesentium, sed magni quisquam.",
