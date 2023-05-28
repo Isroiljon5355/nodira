@@ -6,19 +6,19 @@ const navLink = [
   },
   {
     id: 2,
-    title: "Hotel",
+    title: "Students' residence",
     link: "hotel",
   },
-  {
-    id: 3,
-    title: "Restaurant",
-    link: "restaurant",
-  },
-  {
-    id: 4,
-    title: "Cars Rental",
-    link: "carRentals",
-  },
+  // {
+  //   id: 3,
+  //   title: "Restaurant",
+  //   link: "restaurant",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Cars Rental",
+  //   link: "carRentals",
+  // },
   {
     id: 5,
     title: "National Holiday",

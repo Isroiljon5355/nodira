@@ -1,5 +1,5 @@
 const hotelLocaleUz = {
-  title: "Hotel",
+  title: "O'quvchilar turar joyi",
   location: "Address",
   date: "Date",
   btnSearch: "Search",

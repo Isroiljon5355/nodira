@@ -43,11 +43,11 @@ const Home: NextPage = () => {
         titleTwo={homeLocaleEn.gitTitleTwo}
       />
       <Slider />
-      <TextPart
+      {/* <TextPart
         title={homeLocaleEn.cilentTitle}
         titleTwo={homeLocaleEn.cilentTitleTwo}
-      />
-      <Card />
+      /> */}
+      {/* <Card /> */}
     </div>
   );
 };

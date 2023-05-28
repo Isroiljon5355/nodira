@@ -6,7 +6,7 @@ const categoryData = [
   },
   {
     id: 2,
-    title: "Hotel",
+    title: "O'quvchilar turar joyi",
   },
   {
     id: 3,

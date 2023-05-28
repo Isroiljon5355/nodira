@@ -26,7 +26,7 @@ const dataPopularHotel = [
     image: [
       {
         id: 1,
-        img: "",
+        img: "https://images.unsplash.com/photo-1682685797208-c741d58c2eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       },
     ],
     title: "Oydin Plaza Hotel",

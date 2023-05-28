@@ -1,13 +1,18 @@
-import jon from "public/images/git.webp";
-import jeck from "public/images/git2.webp";
-import monica from "public/images/git 3.jpg";
+// import jon from "./1.jpg";
+import jon2 from "./1.jpg";
+import jeck from "./2.jpg";
+import rasim from "./3.jpg";
+import rasim1 from "./4.jpg";
+import rasim2 from "./5.jpg";
+
+// import monica from "./1.jpg";
 
 const dataGit = [
   {
     id: 1,
-    name: "Jon Doe",
+    name: "Akbarali teacher",
     email: "jon@gmail.com",
-    image: jon,
+    image: rasim,
     descr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
     phone: 998973030793,
@@ -29,9 +34,9 @@ const dataGit = [
   },
   {
     id: 2,
-    name: "Jack Smith",
+    name: "Yulduz teacher va Elyorbek teacher",
     email: "jacksmith@gmail.com",
-    image: jeck,
+    image: rasim1,
     descr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
     phone: 998973030793,
@@ -52,9 +57,9 @@ const dataGit = [
   },
   {
     id: 3,
-    name: "Monica Dersarachia",
+    name: "The DEBUT of the year sohiblari",
     email: "dersarachia@gmail.com",
-    image: monica,
+    image: rasim2,
     descr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
     phone: 998973030793,
@@ -75,9 +80,9 @@ const dataGit = [
   },
   {
     id: 4,
-    name: "Jon Doe",
+    name: "Jahongir Rafikov",
     email: "jon@gmail.com",
-    image: jon,
+    image: jon2,
     descr:
       "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
     phone: 998973030793,
@@ -99,7 +104,7 @@ const dataGit = [
   },
   {
     id: 5,
-    name: "Jack Smith",
+    name: "Donyor teacher",
     email: "jacksmith@gmail.com",
     image: jeck,
     descr:
@@ -108,29 +113,6 @@ const dataGit = [
     prices: [
       {
         value: 40,
-        label: "hour",
-      },
-      {
-        value: 200,
-        label: "day",
-      },
-      {
-        value: 4000,
-        label: "month",
-      },
-    ],
-  },
-  {
-    id: 6,
-    name: "Karl",
-    email: "karl001@gmail.com",
-    image: jon,
-    descr:
-      "lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet",
-    phone: 998999999999,
-    prices: [
-      {
-        value: 50,
         label: "hour",
       },
       {

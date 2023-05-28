@@ -4,6 +4,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { useRef } from "react";
 import useStyles from "./Style/sliderStyle";
 import dataGit from "./components/data";
+import Image from "next/image";
 
 const Slider = () => {
   const { classes } = useStyles();
@@ -30,11 +31,18 @@ const Slider = () => {
           <Carousel.Slide key={git.id}>
             <Grid.Col md={12} lg={12}>
               <Paper radius="md" withBorder p="lg" className={classes.paper}>
-                <Avatar
-                  src="/images/git.jfif"
-                  size={120}
-                  radius={120}
-                  mx="auto"
+                <Image
+                  src={git.image}
+                  width={130}
+                  height={130}
+                  style={{
+                    borderRadius: "50%",
+                    display: "block",
+                    objectFit: "cover",
+                    margin: "auto",
+                    textAlign: "center",
+                  }}
+                  alt="Picture of the author"
                 />
                 <Text ta="center" fz="lg" weight={500} mt="md">
                   {git?.name}
