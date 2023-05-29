@@ -1,6 +1,6 @@
 const historyLocaleUz = {
   title: "Namangan History",
-  p: "Namangan ,Although it does not have a lot of history, it is a land that attracts people with its beauty",
+  p: "For issues such as improving the quality of education in Namangan and providing the right guidance for the next generation",
   historyTitle: "Namangan History",
   historyTitleTwo:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",

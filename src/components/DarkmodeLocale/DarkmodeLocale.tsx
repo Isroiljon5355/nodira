@@ -19,11 +19,11 @@ const DarkmodeLocale = () => {
         position="right"
       >
         <DarkMode />
-        <NativeSelect
+        {/* <NativeSelect
           data={["English", "Uzbek"]}
           rightSectionWidth={40}
           style={{ width: "100%", marginTop: "20px" }}
-        />
+        /> */}
       </Drawer>
       {open ? (
         <Box onClick={() => setOpen(false)} className={classes.itemsOne}>

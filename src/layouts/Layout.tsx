@@ -18,7 +18,7 @@ const Layout = ({ children, ...props }: Props) => {
     <>
       {/* {!signIn ? <SignIn signIn={handleSingIn} /> : null} */}
       <Navbar signIn={handleSingIn} />
-      <DarkmodeLocale />
+      {/* <DarkmodeLocale /> */}
       <main {...props}>{children}</main>
       <Footer links={navLink} />
     </>

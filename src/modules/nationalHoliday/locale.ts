@@ -3,12 +3,12 @@ const nationalHolidaysLocaleUz = {
   welcome: "Welcome Yo Our National ",
   titleTwo: "Holidays",
   textMore:
-    "Namangan ,Although it does not have a lot of history, it is a land that attracts people with its beauty",
+    "For issues such as improving the quality of education in Namangan and providing the right guidance for the next generation",
   gridCartTitle: "Our National Holidays",
   gridCartTitleTwo:
-    "Namangan ,Although it does not have a lot of history, it is a land that attracts people with its beauty",
+    "For issues such as improving the quality of education in Namangan and providing the right guidance for the next generation",
   statisicsTitle: "Our Clients Statistics",
   statisicsTitleTwo:
-    "Namangan ,Although it does not have a lot of history, it is a land that attracts people with its beauty",
+    "For issues such as improving the quality of education in Namangan and providing the right guidance for the next generation",
 };
 export default nationalHolidaysLocaleUz;

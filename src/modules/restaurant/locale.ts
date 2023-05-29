@@ -1,6 +1,6 @@
 const restaurantLocaleUz = {
   title: "Highly Experienced CHefs ",
   titleTwo: "Highly Service",
-  p: "Namangan ,Although it does not have a lot of history, it is a land that attracts people with its beauty",
+  p: "For issues such as improving the quality of education in Namangan and providing the right guidance for the next generation",
 };
 export default restaurantLocaleUz;

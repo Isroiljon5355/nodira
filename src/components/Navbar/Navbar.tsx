@@ -15,6 +15,7 @@ import { useState } from "react";
 import navLink from "./components/data";
 import navbarLocaleEn from "./locale";
 import useStyles from "./styles/navStyle";
+import DarkMode from "@components/darkMode/DarkLightMode";
 
 const HEADER_HEIGHT = 75;
 
@@ -64,7 +65,7 @@ const Navbar: React.FC<{
         <Group spacing={5} className={classes.links} pl={500}>
           {items}
         </Group>
-
+        <DarkMode />
         <Transition transition="pop-top-right" duration={200} mounted={opened}>
           {(styles) => (
             <Box>
